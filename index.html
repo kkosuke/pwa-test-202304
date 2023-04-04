@@ -10,7 +10,18 @@
     <link rel="manifest" href="manifest.json" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div class="flex justify-center items-center text-center min-h-[300px]">
+      <div>
+        <h1 class="text-3xl font-bold underline">Hello world!</h1>
+        <a
+          href="/pwa/"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 inline-block"
+        >
+          go pwa page
+        </a>
+      </div>
+    </div>
+
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
